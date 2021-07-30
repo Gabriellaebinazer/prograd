@@ -2,93 +2,129 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Prograd</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
-  <section id="home">
-    <div class="main">
-      <h1 class="headings">I Believe in<br>Learn(): Code(): Achieve(): Succeed():</h1>
+    <header>
+        <div class="user">
+            <img src="images/img.jpg" alt="">
+            <h3 class="name">Gayathri</h3>
+            <p class="post">Software Engineer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="home" id="home">
+            <h3 class="name">I'm <span>Gayathri</span></h3>
+            <h3 class="post">i am a <span class="typing-text">Software Engineer</span></h3>
+            <div class="share">
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading">about me</h1>
+            <div class="content">
+                <h3 class="name">my name is <span>Gayathri</span></h3>
+                <p>I am an engineering graduate on Computer science and engineering and secured 81%.The Passionate
+                    Software
+                    Engineer in developing the
+                    application using a wide range of technologies and programming languages.Quite Knowledge in ReactJS
+                    library
+                    for creating single pageweb
+                    application.Knowledge on UI responsive design using CSS3.Have Knowledge on BackEnd using NodeJS and
+                    MySql.</p>
+            </div>
+
+
+
+            <div class="skills">
+                <div class="progress">
+                    <h3>HTML<span>95%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                
+                <div class="progress">
+                    <h3>CSS<span>85%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Javascript<span>75%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </section>
+<section class="education" id="education">
+    <h1 class="heading">education</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="year">2016-2020</div>
+            <h3>Bachelor of engineering</h3>
+            <p>Graduated in Prince shri venkateshwara padmavathy engineering college and secured 81%</p>
+        </div>
+        <div class="box">
+            <div class="year">2015-2016</div>
+            <h3>HSC</h3>
+            <p>Studied in Zion Matriculation School and secured 85%</p>
+        </div>
+        <div class="box">
+            <div class="year">2013-2014</div>
+            <h3>SSLC</h3>
+            <p>Studied in Zigma Matriculation School and secured 95%</p>
+        </div>
     </div>
-  </section>
-  <section id="about">
-    <div id="pic">
-      <h1 class="heading">ABOUT ME</h1>
-      <img src="img.jpg" alt="">
-      <div id="intro">
-        <h2>
-          GAYATHRI
-        </h2>
-        <p>
-          I am an engineering graduate on Computer science and engineering and secured 81%.The Passionate Software
-          Engineer in developing the
-          application using a wide range of technologies and programming languages.Quite Knowledge in ReactJS library
-          for creating single pageweb
-          application.Knowledge on UI responsive design using CSS3.Have Knowledge on BackEnd using NodeJS and MySql.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section id="Portfolio">
-    <h1 class="heading">PORTFOLIO</h1>
-    <div class="row">
-      <div class="box">
-        <img src="android.jpg" alt="">
-        <h1 class="headings">Android application Development</h1>
-        <p>Calculator app which can perform basic arithmetic Operations like Addition, Subtraction, Multiplication,
-          Division depending upon the user input and it is performed using Android Studio Designed the UI.</p>
-      </div>
-      <div class="box">
-        <img src="download.png" alt="">
-        <h1 class="headings">Chatbot for college content response in NLP</h1>
-        <p>Chatbot works based on Machine Learning Techniques.Rule based algorithm is used for answering the user
-          queries.</p>
-      </div>
-  </section>
-  
-  <section id="Skills">
-    <h1 class="headings">SKILLS</h1>
-    <div class="skill">
-      <div class="skill-name">HTML</div>
-      <div class="skill-bar">
-        <div class="skill-per" per="90%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">CSS</div>
-      <div class="skill-bar">
-        <div class="skill-per" per="70%"></div>
-      </div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">JAVASCRIPT</div>
-      <div class="skill-bar">
-        <div class="skill-per" per="65%"></div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <h1 class="headings">CONTACT</h1>
-    <form action="" class="form">
-      <input type="text" name="name" class="input" placeholder="Enter Your Name">
-      <input type="email" name="email" class="input" placeholder="Enter Your Email">
-      <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-      <input type="submit" value="SEND" id="send">
+</section>
+<section class="contact" id="contact">
+<h1 class="heading">Contact me</h1>
+<div class="row">
+    <form action="">
+        <input type="text" class="box" placeholder="firstname">
+        <input type="text" class="box" placeholder="lastname">
+        <input type="email" class="box" placeholder="Your email">
+        <input type="text" class="box" placeholder="Your Project">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+<input type="submit" value="message" class="btn">
     </form>
-  </section>
-
-
+    <div class="content">
+        <div class="icons">
+            <h3><i class="fas fa-map-marker-alt"></i>address</h3>
+            <p>
+                Iyyapanthangal, chennai
+            </p>
+        </div>
+        <div class="icons">
+            <h3><i class="fas fa-envelope"></i>email</h3>
+            <p>
+                gayuchithravel@gmail.com
+            </p>
+        </div>
+        <div class="icons">
+            <h3><i class="fas fa-phone"></i>phone</h3>
+            <p>
+        9094787704
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+    </div>
+    </script>
 </body>
 
 </html>
