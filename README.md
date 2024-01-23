@@ -1,4 +1,4 @@
-# Gayathi's Portfolio
+# Portfolio Project
 This is the repository portfolio website, showcasing skills, education, and contact information.
 
 ## Description
